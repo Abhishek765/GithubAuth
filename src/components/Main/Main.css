@@ -1,0 +1,39 @@
+.info_img1,
+.info_img2 {
+  width: 100%;
+  height: 60%;
+  margin-top: 2%;
+}
+
+@media only screen and (max-width: 960px) {
+  .first_tile {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .first_tile_col {
+    text-align: center;
+  }
+  .info_img1 {
+    width: 90%;
+    height: 50%;
+    margin-bottom: 20px;
+  }
+  .info_img_div {
+    margin-bottom: -20%;
+  }
+}
+.sec_tile {
+  background: #f6f6f6;
+}
+.first_title,
+.sec_title {
+  font-weight: bold;
+  margin-bottom: 13px;
+}
+
+.first_title_span,
+.sec_title_span {
+  color: #007bff;
+  font-weight: 800;
+  margin-bottom: 17px;
+}
