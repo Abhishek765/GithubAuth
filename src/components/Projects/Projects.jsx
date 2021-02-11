@@ -18,8 +18,7 @@ const Projects = ({ AccessCode }) => {
 
     // ! It is not possible to make a Post request for the access token (Gives 404 NOT Found Error) so I used PAT Token in order to get the repo (I tried many R&D but not able to find the solution for that)
     /* const article = {
-    //   client_id: 'cfbcece9075bdfca73c0',
-    //   client_secret: '0ccbda65f6b38cdc7c7616ef0ef44ec6aac9bba7',
+    //
     //   code: AccessCode
     // };
     // // const headers = {
@@ -45,8 +44,7 @@ const Projects = ({ AccessCode }) => {
     //   mode: 'no-cors',
     //   url: 'https://github.com/login/oauth/access_token',
     //   data: {
-    //     client_id: 'cfbcece9075bdfca73c0',
-    //     client_secret: '0ccbda65f6b38cdc7c7616ef0ef44ec6aac9bba7',
+    //    
     //     code: { AccessCode }
     //   },
     //   headers: {  "Access-Control-Allow-Origin": "*", 'Accept': 'application/json' },
