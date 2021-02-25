@@ -5,12 +5,15 @@
   margin-top: 2%;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 768px) {
   .first_tile {
     display: flex;
     flex-direction: column-reverse;
   }
   .first_tile_col {
+    text-align: center;
+  }
+  .sec_tile_col {
     text-align: center;
   }
   .info_img1 {
